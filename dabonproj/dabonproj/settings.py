@@ -55,7 +55,7 @@ ROOT_URLCONF = 'dabonproj.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/dabonapp/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
